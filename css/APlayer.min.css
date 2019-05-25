@@ -1,5 +1,5 @@
 .aplayer {
-    background: #666);
+    background: black);
     font-family: Arial, Helvetica, sans-serif;
     margin: 5px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .07), 0 1px 5px 0 rgba(0, 0, 0, .1);
@@ -23,11 +23,11 @@
 }
 
 .aplayer svg circle, .aplayer svg path {
-    fill: #666
+    fill: black
 }
 
 .aplayer.aplayer-withlist .aplayer-info {
-    border-bottom: 1px solid #666
+    border-bottom: 1px solid black
 }
 
 .aplayer.aplayer-withlist .aplayer-list {
@@ -80,7 +80,7 @@
 
 .aplayer.aplayer-fixed .aplayer-list {
     margin-bottom: 65px;
-    border: 1px solid #666;
+    border: 1px solid black;
     border-bottom: none
 }
 
@@ -91,7 +91,7 @@
     right: 0;
     margin: 0;
     z-index: 99;
-    background: #666;
+    background: black;
     padding-right: 18px;
     transition: all .3s ease;
     max-width: 400px
@@ -106,7 +106,7 @@
     margin: 0;
     z-index: 98;
     pointer-events: none;
-    text-shadow: -1px -1px 0 #666
+    text-shadow: -1px -1px 0 black
 }
 
 .aplayer.aplayer-fixed .aplayer-lrc:after, .aplayer.aplayer-fixed .aplayer-lrc:before {
@@ -120,7 +120,7 @@
     transform-origin: 0 0;
     transition: all .3s ease;
     border-bottom: none;
-    border-top: 1px solid #666
+    border-top: 1px solid black
 }
 
 .aplayer.aplayer-fixed .aplayer-info .aplayer-music {
@@ -194,7 +194,7 @@
     width: 15px;
     height: 15px;
     border: none;
-    background-color: #666;
+    background-color: black;
     outline: none;
     cursor: pointer;
     opacity: .8;
@@ -262,7 +262,7 @@
 .aplayer .aplayer-pic .aplayer-play {
     width: 26px;
     height: 26px;
-    border: 2px solid #666;
+    border: 2px solid black;
     bottom: 50%;
     right: 50%;
     margin: 0 -15px -15px 0
@@ -279,7 +279,7 @@
 .aplayer .aplayer-pic .aplayer-pause {
     width: 16px;
     height: 16px;
-    border: 2px solid #666;
+    border: 2px solid black;
     bottom: 4px;
     right: 4px
 }
@@ -559,7 +559,7 @@
 
 .aplayer .aplayer-list ol::-webkit-scrollbar-thumb {
     border-radius: 3px;
-    background-color: #666
+    background-color: black
 }
 
 .aplayer .aplayer-list ol::-webkit-scrollbar-thumb:hover {
@@ -584,11 +584,11 @@
 }
 
 .aplayer .aplayer-list ol li:hover {
-    background: #666
+    background: black
 }
 
 .aplayer .aplayer-list ol li.aplayer-list-light {
-    background: #666
+    background: black
 }
 
 .aplayer .aplayer-list ol li.aplayer-list-light .aplayer-list-cur {
@@ -629,9 +629,9 @@
     padding: 5px 10px;
     transition: all .3s ease-in-out;
     overflow: hidden;
-    color: #666;
+    color: black;
     pointer-events: none;
-    background-color: #666;
+    background-color: black;
     color: #909399
 }
 
@@ -642,7 +642,7 @@
     right: 0;
     bottom: 0;
     height: 100%;
-    background: #666;
+    background: black;
     width: 18px;
     border-radius: 0 2px 2px 0
 }
