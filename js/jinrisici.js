@@ -13,3 +13,7 @@ info.innerHTML = '【' + data.data.origin.dynasty + '】' + data.data.origin.aut
 }
 xhr.send()
 }
+
+if ($('div').hasClass('poem-wrap')) {
+  get_poem('#poem', '#info')
+}
